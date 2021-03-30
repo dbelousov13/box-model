@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-size: 0;
+}
+/*div заменили на Н6*/ 
+h6 {
+    width: 200px;
+    height: 150px;
+    /* 1 вариант: padding: 10px;*/
+    /* 2 вариант: padding-left: 70px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-top: 10px; */
+    
+    /* padding: 10px 30px 50px 70px; */
+
+    /* задание маржин по бокам 50px, сверху 80px, снизу 20px */
+    padding: 80px 50px 20px;
+
+    /* border: 25px double pink; */
+
+    /* бордер сверху сплошная 5пх зеленая, снизу точками 10пх красная слева штрихами 15пх синяя, справа - нет*/
+    border-top: solid 5px green;
+    border-bottom: dotted 10px red;
+    border-left: dashed 15px blue;
+    
+}
+
+
+
+.div1, .div2 {
+    width: 50%;
+    height: 100px;
+    display: block;
+    border: 5px solid red;
+    box-sizing: border-box;
+    font-size: 10px;
+
+    /* display: 
+    -block
+    -inline
+    -inline-block
+    */
+}
+
+.div1{
+    background-color: yellow;
+    /*display: none;*/
+    opacity: 0.5;
+}
+
+.div2{
+    background-color: blue;
+    
+    
+}
